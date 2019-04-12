@@ -1,48 +1,48 @@
 {
-	"info": {
-		"_postman_id": "e9532e74-0b3e-4eab-bfa8-fc38861da36d",
-		"name": "EAN",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "Post",
-			"item": []
-		},
-		{
-			"name": "EAN Delete User",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "https://my.stage1.ean.org/ean/api/users/delete?id=70816&api_key=501e92d8e6220671abb419304db0d689",
-					"protocol": "https",
-					"host": [
-						"my",
-						"stage1",
-						"ean",
-						"org"
-					],
-					"path": [
-						"ean",
-						"api",
-						"users",
-						"delete"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "70816"
-						},
-						{
-							"key": "api_key",
-							"value": "501e92d8e6220671abb419304db0d689"
-						}
-					]
-				}
-			},
-			"response": []
-		}
-	]
+  "info": {
+    "_postman_id": "e9532e74-0b3e-4eab-bfa8-fc38861da36d",
+    "name": "EAN",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Post",
+      "item": []
+    },
+    {
+      "name": "EAN Delete User",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "https://my.stage1.ean.org/ean/api/users/delete?id=70816&api_key=501e92d8e6220671abb419304db0d689",
+          "protocol": "https",
+          "host": [
+            "my",
+            "stage1",
+            "ean",
+            "org"
+          ],
+          "path": [
+            "ean",
+            "api",
+            "users",
+            "delete"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": "70816"
+            },
+            {
+              "key": "api_key",
+              "value": "501e92d8e6220671abb419304db0d689"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
 }
